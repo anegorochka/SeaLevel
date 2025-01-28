@@ -23,3 +23,10 @@ Based on sea level data for the last decades, construct a probabilistic model of
 - sklearn (datasets)
 - sklearn (svm)
 - sklearn.metrics (mean_squared_error)
+
+## Models
+- Линейная регрессия с помощью sklearn.linear_model
+- Аптечная модель
+- Простая регрессия
+- Регрессия на Х**2
+- Логарифмическая модель
