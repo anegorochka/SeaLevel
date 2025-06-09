@@ -1,32 +1,24 @@
 # SeaLevel
 
-Based on sea level data for the last decades, construct a probabilistic model of sea level change.
+## Цель
+На основе данных об уровне моря за последние десятилетия постройте вероятностную модель изменения уровня моря.
 
-## Course of research
-1.	Find and read the data for the study.
-2.	Build a probability model.
-3.	Examine the significance of the model parameters and eliminate the insignificant ones.
-4.	Examine the adequacy of the model by statistical test and/or stochastic modeling, cross-validation.
-5.	Based on this study, correct the model and then check the adequacy of the corrected model.
+## Задача исследования
+1.	Найди и прочитать данные.
+2.	Построить вероятностную модель.
+3.	Проверить значимость параметров модели и исключите незначимые.
+4.	Проверить адекватность модели с помощью статистических тестов и/или стохастического моделирования, перекрестной валидации.
+5.	На основании проведенного исследования скорректировать модель и проверить адекватность скорректированной модели.
 
-## Libraries
-- numpy
-- pandas
-- seaborn
-- matplotlib.pyplot
-- sklearn.linear_model (LinearRegression)
-- scipy.stats (norm)
-- scipy (stats)
-- statsmodels
-- statsmodels.api
-- sklearn.model_selection (train_test_split)
-- sklearn (datasets)
-- sklearn (svm)
-- sklearn.metrics (mean_squared_error)
-
-## Models
+## Модели
 - Линейная регрессия с помощью sklearn.linear_model
 - Аптечная модель
 - Простая регрессия
 - Регрессия на Х**2
 - Логарифмическая модель
+- Множественная линейная регрессия
+
+## Библиотеки
+Numpy, pandas, seaborn, matplotlib.pyplot, sklearn.linear_model (LinearRegression), scipy.stats (norm), scipy (stats), statsmodels, statsmodels.api, sklearn.model_selection (train_test_split), sklearn (datasets), sklearn (svm), sklearn.metrics (mean_squared_error)
+
+
